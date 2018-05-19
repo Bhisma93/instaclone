@@ -11,9 +11,3 @@ IgItems.forEach(function (pic) {
   })
 });
 
-IgItems.forEach(function (pic) {
-    pic.addEventListener('click', function (event) {
-      event.preventDefault();
-      galleryTarget.setAttribute('src', pic.getAttribute('href'));
-    })
-  });
